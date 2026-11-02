@@ -1,0 +1,32 @@
+/* Quiet macOS-inspired surfaces. No theme mode or synthetic data changes. */
+:root{--mac-ink:#242426;--mac-muted:#606064;--mac-accent:#0067d5;--mac-line:#e2e2e5}
+body{font-family:-apple-system,BlinkMacSystemFont,Noto,Arial,sans-serif;color:var(--mac-ink)}
+.layout,.body,.sidebar{background:#f0f0f2}
+.topbar{background:linear-gradient(#f8f8f9,#f0f0f2);height:48px;box-shadow:inset 0 1px #fff}
+.wordmark{font-family:inherit;font-size:17px;font-weight:600;letter-spacing:-.7px;color:#252527}
+.breadcrumbs{flex:1;min-width:0;overflow:hidden}.breadcrumbs .wordmark,.mobile-menu{flex-shrink:0}.breadcrumbs b{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.top-tools{flex-shrink:0}
+.sidebar .nav-link{color:#6b6b70;border-radius:7px}
+.sidebar .nav-link.active{background:#e0e0e3;color:#2566a6;box-shadow:inset 0 1px #ffffff88,0 1px 2px #00000005}
+.sidebar .nav-link:hover{background:#e5e5e8}
+.sidebar .nav-count{background:#dddde1;color:#545458}.sidebar-bottom{border-color:#dedee1}
+.content{background:#fff;border-color:#dedee2;border-radius:13px;box-shadow:0 3px 12px #00000008,inset 0 1px #fff}
+.project-title h1{color:#242426;font-size:24px;letter-spacing:-.8px}
+.controls select{background:#fff;border-color:#d6d6da;box-shadow:0 1px 2px #00000006}
+#start{background:#0870d6;color:white;border-color:#0671dd;box-shadow:inset 0 1px #ffffff24,0 1px 3px #0067d522}
+#start:hover{background:#0064c7}
+.session-workspace .browser-chrome{background:linear-gradient(#f7f7f8,#ededf0);border-bottom-color:#dedee1;box-shadow:inset 0 1px #ffffff}
+.session-workspace .browser-address{color:#606065;font-family:inherit}
+.session-workspace .persona{border-color:#dedee2;border-radius:8px;box-shadow:0 2px 6px #00000008!important}
+.session-workspace .persona.selected{border-color:#86a9d4;box-shadow:0 3px 9px #00000012!important}
+.session-workspace .persona:hover{border-color:#b3b3ba;box-shadow:0 3px 8px #0000000f!important}
+.session-workspace .preview{background:#f8f8fa}.session-workspace .card-body{background:#fff}
+.session-filters button.active{color:#1d65ab;border-bottom-color:#4488c9}
+.report-shortcut a{background:linear-gradient(#fff,#f8f8fa);color:#333338;border-color:#d6d6da;box-shadow:0 1px 3px #0000000a}
+.journey-stage.selected{border-color:#8ca8c8;background:#fafcff;box-shadow:0 2px 6px #00000009}
+.journey-summary{background:#f8f8fa;border-color:#e5e5e8}.journey-insight{border-color:#e5e5e8;background:#fff;box-shadow:0 2px 7px #00000007}
+.journey-screenshot img,.finding-screen{border-color:#e1e1e5;background:#f7f7f9}
+.finding{border-color:#e3e3e6;box-shadow:0 2px 7px #00000008}
+.finding-index{border-color:#e3e3e6;box-shadow:0 2px 6px #00000006}
+#screen-dialog{background:#fff;border-color:#d4d4d9;box-shadow:0 15px 70px #00000033}
+#viewer-scroll{background:#f0f0f2}
+@media(max-width:620px){.sidebar{background:#f1f1f3}.content{border:0;border-radius:0;box-shadow:none}.topbar{box-shadow:inset 0 -1px #dedee2}.workspace-scope{display:none}}
